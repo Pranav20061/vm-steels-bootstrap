@@ -2831,6 +2831,20 @@ p {
 
 
 }
+@media (min-width:992px) and (max-width:1190px) {
+    .big-inner{
+        font-size: 18px;
+        padding-bottom: 3rem;
+    }
+}
+
+@media (min-width:1190px) and (max-width:1490px) {
+.big-inner{
+    padding-bottom:3rem;
+    display: flex;
+    font-size: 22px;
+}
+}
 
 @media (min-width:340px) and (max-width:520px) {
     .big-inner {
