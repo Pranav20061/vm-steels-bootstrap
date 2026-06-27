@@ -2643,7 +2643,7 @@ p {
 .red-fluid {
     background-color: #ff696b;
     height: auto;
-    /* max-height: 95vh; */
+    min-height: 95vh;
 }
 
 .upper-title {
@@ -2748,7 +2748,7 @@ p {
 
     .red-fluid {
         height: auto;
-        /* max-height: 65vh; */
+        min-height: 65vh;
     }
     .black-fluid{
         height: 105vh;
