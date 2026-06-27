@@ -2643,7 +2643,7 @@ p {
 .red-fluid {
     background-color: #ff696b;
     height: auto;
-    min-height: 95vh;
+    min-height: 65vh;
 }
 
 .upper-title {
