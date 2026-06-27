@@ -49,6 +49,13 @@ body {
     font-weight: 700;
 }
 
+.heading4{
+    font-family: "Montserrat";
+    letter-spacing: 1px;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
 .hero-section {
     background-image: url(./Gemini_Generated_Image_j08r9sj08r9sj08r.png);
     background-size: cover;
@@ -747,6 +754,7 @@ p {
         display: block;
         font-size: 30px;
     }
+    
 
 }
 
@@ -975,7 +983,6 @@ p {
         display: flex;
         flex-direction: column;
         height: auto;
-        min-height: 100vh;
     }
 
     .footer-section {
@@ -1106,6 +1113,9 @@ p {
     .middle-list {
         padding-left: 1rem;
     }
+    .heading4{
+    font-size: 1.3rem;
+}
 }
 
 @media (min-width: 445px)and (max-width:768px) {
@@ -1214,7 +1224,6 @@ p {
         display: flex;
         flex-direction: column;
         height: auto;
-        min-height: 100vh;
     }
 
     .footer-section {
@@ -1707,7 +1716,7 @@ p {
 }
 
 .section-header {
-    height: 12vh;
+    height: 8vh;
 }
 
 
@@ -2379,7 +2388,7 @@ p {
 
 /* CONTACT US  */
 .hero-section7 {
-    background-image: url(./images-contactus/ChatGPT\ Image\ Jun\ 26\,\ 2026\,\ 04_22_31\ PM.png);
+    background-image: url(./images-contactus/ChatGPT\ Image\ Jun\ 27\,\ 2026\,\ 02_42_14\ PM.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -2632,7 +2641,7 @@ p {
 
 .red-fluid {
     background-color: #ff696b;
-    height: 100vh;
+    height: 85vh;
 }
 
 .upper-title {
@@ -2694,6 +2703,12 @@ p {
         flex-direction: column;
         align-items: center;
     }
+    .big-bracket{
+        height: 50vh;
+    }
+    .black-fluid{
+        height: 110vh;
+    }
 }
 
 @media (min-width:340px) and (max-width:768px) {
@@ -2725,7 +2740,13 @@ p {
     }
 
     .red-fluid {
-        height: 70vh;
+        height: 65vh;
+    }
+    .black-fluid{
+        height: 90vh;
+    }
+    .wrap1{
+        margin-top: 10rem;
     }
 
     .big-text {
@@ -2734,8 +2755,8 @@ p {
     }
 
     .big-bracket {
-        height: 30vh;
-        margin-top: 2.5rem;
+        height: 35vh;
+        margin-top: 0px;
     }
 
     .wrap1 {
