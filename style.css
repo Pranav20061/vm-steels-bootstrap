@@ -2479,7 +2479,8 @@ p {
 .black-fluid {
     background-color: #212121;
     margin-top: 8rem;
-    height: 120vh;
+    height: 130vh;
+    max-height: 130vh;
 }
 
 .small-text {
@@ -2641,7 +2642,8 @@ p {
 
 .red-fluid {
     background-color: #ff696b;
-    height: 85vh;
+    height: 95vh;
+    max-height: 95vh;
 }
 
 .upper-title {
@@ -2705,9 +2707,14 @@ p {
     }
     .big-bracket{
         height: 50vh;
+        margin-top: 0rem;
     }
     .black-fluid{
         height: 110vh;
+        max-height: 110vh;
+    }
+    .wrap1{
+        margin-top: 8rem;
     }
 }
 
@@ -2741,9 +2748,11 @@ p {
 
     .red-fluid {
         height: 65vh;
+        max-height: 65vh;
     }
     .black-fluid{
-        height: 90vh;
+        height: 105vh;
+        max-height: 105vh;
     }
     .wrap1{
         margin-top: 10rem;
